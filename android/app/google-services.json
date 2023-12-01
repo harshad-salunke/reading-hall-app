@@ -1,0 +1,130 @@
+{
+  "project_info": {
+    "project_number": "291177894531",
+    "firebase_url": "https://kjei-reading-hall-default-rtdb.firebaseio.com",
+    "project_id": "kjei-reading-hall",
+    "storage_bucket": "kjei-reading-hall.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291177894531:android:711230cc093d33e946c1b6",
+        "android_client_info": {
+          "package_name": "com.example.kjei_reading_hall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "291177894531-2ubk2m0emjsvpp0rmfm8dugj6ftcb6rd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kjei_reading_hall",
+            "certificate_hash": "08a1e7b2308604b87ae86adc033b8bb55a1bd2ca"
+          }
+        },
+        {
+          "client_id": "291177894531-a0cma3i0b7l6kp154k1om14lbpdkb5pq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kjei_reading_hall",
+            "certificate_hash": "b1c8cdeac4c58840a62349ed9178a8766ed77d6f"
+          }
+        },
+        {
+          "client_id": "291177894531-ae939avmtsgemgiev8bqn770fk2h936v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHi4BAruj4ZV2LUDw7xu2-A3F80BD03fo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "291177894531-ae939avmtsgemgiev8bqn770fk2h936v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291177894531:android:d480320685b4333b46c1b6",
+        "android_client_info": {
+          "package_name": "com.harshad.kjcoemr_reading_hall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "291177894531-tcbafdfsvej3gq0od33nhf9oikq8iu7l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.harshad.kjcoemr_reading_hall",
+            "certificate_hash": "b1c8cdeac4c58840a62349ed9178a8766ed77d6f"
+          }
+        },
+        {
+          "client_id": "291177894531-ae939avmtsgemgiev8bqn770fk2h936v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHi4BAruj4ZV2LUDw7xu2-A3F80BD03fo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "291177894531-ae939avmtsgemgiev8bqn770fk2h936v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291177894531:android:465d234e031454e446c1b6",
+        "android_client_info": {
+          "package_name": "com.harshad.kjei_reading_hall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "291177894531-p6k65q8ed00havfs31vu64ej791jg4vv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.harshad.kjei_reading_hall",
+            "certificate_hash": "b1c8cdeac4c58840a62349ed9178a8766ed77d6f"
+          }
+        },
+        {
+          "client_id": "291177894531-ae939avmtsgemgiev8bqn770fk2h936v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHi4BAruj4ZV2LUDw7xu2-A3F80BD03fo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "291177894531-ae939avmtsgemgiev8bqn770fk2h936v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
