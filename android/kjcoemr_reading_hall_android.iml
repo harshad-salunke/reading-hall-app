@@ -222,5 +222,10 @@
     <orderEntry type="library" name="Gradle: androidx.drawerlayout:drawerlayout:1.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.github.canardoux:flutter_sound_core:9.2.13@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.core:core-ktx:1.6.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: io.flutter:flutter_embedding_debug:1.0.0-7eb6b7cab60c11c2daaaae76c7e79cf2fa6f59e4" level="project" />
+    <orderEntry type="library" name="Gradle: io.flutter:armeabi_v7a_debug:1.0.0-7eb6b7cab60c11c2daaaae76c7e79cf2fa6f59e4" level="project" />
+    <orderEntry type="library" name="Gradle: io.flutter:arm64_v8a_debug:1.0.0-7eb6b7cab60c11c2daaaae76c7e79cf2fa6f59e4" level="project" />
+    <orderEntry type="library" name="Gradle: io.flutter:x86_64_debug:1.0.0-7eb6b7cab60c11c2daaaae76c7e79cf2fa6f59e4" level="project" />
+    <orderEntry type="library" name="Gradle: io.flutter:x86_debug:1.0.0-7eb6b7cab60c11c2daaaae76c7e79cf2fa6f59e4" level="project" />
   </component>
 </module>

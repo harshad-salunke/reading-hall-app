@@ -119,6 +119,7 @@ class FirebaseHandler extends ChangeNotifier {
       notifyListeners();
     }
   }
+
   bool _showProgress = false;
   Widget? _progressIndicator;
 
@@ -147,6 +148,7 @@ class FirebaseHandler extends ChangeNotifier {
       },
     );
   }
+
   void stopProgress(BuildContext context) {
     _showProgress = false;
     if (_progressIndicator != null) {
@@ -154,6 +156,7 @@ class FirebaseHandler extends ChangeNotifier {
       _progressIndicator = null;
     }
   }
+
 
   Future<void> verifyOTP(Function(bool error) callback,UserModel userModel,bool isLogin) async {
     try {
@@ -184,6 +187,7 @@ class FirebaseHandler extends ChangeNotifier {
       notifyListeners();
     }
   }
+
   String _getCurrentDate() {
     DateTime now = DateTime.now();
     String formattedDate = DateFormat('d MMM y').format(now);
@@ -193,7 +197,6 @@ class FirebaseHandler extends ChangeNotifier {
 
   void SaveUserData(Function(bool err) callback,UserModel userModel) async{
     userModel.join_date=_getCurrentDate();
-
     String personJson = json.encode(userModel.toJson());
     await prefs.setString('user_data',personJson );
 
@@ -202,6 +205,7 @@ class FirebaseHandler extends ChangeNotifier {
     String path='Students/${userModel.phone_number}';
     dbRef.child(path).set(data).then((value) {
         callback(false);
+
     }).catchError((error) {
       callback(true);
       signOut();
